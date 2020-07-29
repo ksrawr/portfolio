@@ -103,6 +103,32 @@
   color: #03DAC6;
 }
 
+@media only screen and (max-width: 1400px) {
+  .logo-main {
+    height: 4em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo-main {
+    height: 3em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .logo-main {
+    height: 2em;
+  }
+
+  .icon-text p:nth-child(1) {
+    visibility: hidden;
+  }
+
+  .icon-text p {
+    font-size: 10px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-custom {
     position: absolute;
