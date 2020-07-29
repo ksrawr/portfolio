@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="navbar-custom">
       <ul className="navbar-section">
         <li className="nav-item">
-          <Link>
+          <Link to='/'>
           <div className="logo logo-main"></div>
           <div className="icon-text">
             <p>Kenny</p>
@@ -27,7 +27,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link>
+          <Link to='/'>
           <FontAwesomeIcon icon={faHome} color="rgba(255, 255, 255, 0.38)" size="2x"/>
           <div className="icon-text">
             <p>Home</p>
@@ -35,7 +35,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link>
+          <Link to='/about'>
           <FontAwesomeIcon icon={faUser} color="rgba(255, 255, 255, 0.38)" size="2x"/>
           <div className="icon-text">
             <p>About</p>
