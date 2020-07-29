@@ -1,0 +1,154 @@
+.navbar-custom {
+  width: 6vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  background-color: #121212;
+  /* width: 6vw;
+  height: 100vh; */
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-text p {
+  /* color: rgba(255, 255, 255, 0.38); */
+  color: #03DAC6;
+  margin: 0;
+}
+
+/* All children after the first apply this rule */
+.icon-text:nth-of-type(1) p {
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.icon-text:hover p {
+  text-decoration: none;
+  visibility: visible;
+}
+
+.nav-item:hover .icon-text p {
+  text-decoration: none;
+  /* color: #03DAC6; */
+  color: rgba(255, 255, 255, 0.87);
+  visibility: visible;
+}
+
+.nav-item:hover {
+  background-color: rgba(44, 44, 44, 0.9);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+}
+
+.nav-item:hover a svg {
+  color: #03DAC6;
+}
+
+.logo-main {
+  background-image: url('./../images/Screenshot\ from\ 2020-07-08\ 20-32-37\ \(1\)\ \(1\).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 5em;
+  width: 100%;
+  margin: 15px 10px 0 0;
+  margin-bottom: auto;
+}
+
+.navbar-section > *:not(:first-child):not(:last-child) {
+  /* margin: 20px 0px; */
+  padding: 15px 0;
+}
+
+.nav-item:first-child {
+  margin-bottom: auto;
+}
+
+.nav-item:first-child a {
+  width: calc(100% - 0.5em);
+}
+
+.nav-item:last-child {
+  margin-top: auto;
+  padding: 15px 0;
+}
+
+.nav-item:last-child:hover div svg{
+  color: #03DAC6;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-custom {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+
+  .navbar-section {
+    flex-direction: row;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
+
+  .nav-item:last-child, .nav-item:first-child {
+    margin: 0;
+  }
+
+  .navbar-section > *:not(:first-child):not(:last-child) {
+    margin: 0;
+  }
+
+  .nav-item:first-child {
+    width: 0;
+    margin-left: 5px
+  }
+
+  .icon-text p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.38);
+    visibility: hidden;
+  }
+  
+  .icon-text:nth-of-type(1) p {
+    font-size: 10px;
+    visibility: visible;
+  }
+
+  .logo-main {
+    height: calc(3.5em - 5px);
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+}

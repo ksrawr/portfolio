@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: relative;
+  display: block;
+  padding: 0;
+}
+
+
+.main-container {
+  display: flex;
+}
+
+// .navbar-custom {
+//   width: 6vw;
+//   height: 100vh;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// @media only screen and (max-width: 600px) {
+//   .navbar-custom {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100vw;
+//     height: 4rem;
+//   }
+
+//   .navbar-section {
+//     flex-direction: row;
+//   }
+
+//   .svg-inline--fa:last-child {
+//     margin: 0 15px;
+//   }
+
+//   .navbar-section > * {
+//     margin: 0 15px;
+//   }
+
+//   .logo-main {
+//     height: 3.5em;
+//   }
+// }
+
+// @media only screen and (min-width: 600px) {
+
+// }

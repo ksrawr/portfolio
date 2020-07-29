@@ -1,0 +1,145 @@
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(18,18,18, 0.95);
+}
+
+.home-container div {
+  color: white;
+}
+
+.home-section {
+  height: 95vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.home-main_content {
+  flex:1;
+  margin-left: 7em;
+}
+
+h1.home-header {
+  font-size: 4em;
+}
+
+.home-learn--button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid #03DAC6;
+  padding: 15px 60px;
+  color: #03DAC6;
+  border-radius: 1px;  
+}
+
+.home-learn--button:hover {
+  background-color: #03DAC6;
+  color: black;
+}
+
+.home-main_content h2 {
+  color: rgba(255, 255, 255, 0.38);
+  font-size: 1em;
+}
+
+.home-aside {
+  flex: initial;
+}
+
+.home-big--logo {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  animation: 
+    fill-blue 0.5s ease forwards 5.5s,
+    hide 0.5s ease forwards 6.5s;
+}
+
+.home-big--logo > path {
+  stroke: #03DAC6;
+}
+
+.home-big--logo path:nth-child(1) {
+  stroke-dasharray: 1186.7852783203125px;
+  stroke-dashoffset: 1186.7852783203125px;
+  animation: trace 4s ease forwards 0.3s;
+}
+
+.home-big--logo path:nth-child(2) {
+  stroke-dasharray: 778.8079833984375px;
+  stroke-dashoffset: 778.8079833984375px;
+  animation: trace 4s ease forwards 0.6s;
+}
+
+.home-big--logo path:nth-child(3) {
+  stroke-dasharray: 190.77154541015625px;
+  stroke-dashoffset: 190.77154541015625px;
+  animation: trace 4s ease forwards 0.9s;
+}
+
+.home-big--logo path:nth-child(4) {
+  stroke: white;
+  stroke-dasharray: 1118.785400390625px;
+  stroke-dashoffset: 1118.785400390625px;
+  animation: trace 4s ease forwards 1.2s,
+   fill-white 0.5s ease forwards 5.5s;
+}
+
+.home-big--logo path:nth-child(5) {
+  stroke-dasharray: 190.77169799804688px;
+  stroke-dashoffset: 190.77169799804688px;
+  animation: trace 4s ease forwards 1.5s;
+}
+
+.home-big--logo path:nth-child(6) {
+  stroke-dasharray: 778.8079833984375px;
+  stroke-dashoffset: 778.8079833984375px;
+  animation: trace 4s ease forwards 1.8s;
+}
+
+.home-big--logo path:nth-child(7) {
+  stroke-dasharray: 1186.6314697265625px;
+  stroke-dashoffset: 1186.6314697265625px;
+  animation: trace 4s ease forwards 2.1s;
+}
+
+@keyframes trace {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-blue {
+  from {
+    fill: transparent;
+  }
+
+  to {
+    fill: #03DAC6;
+  }
+}
+
+@keyframes fill-white {
+  from {
+    fill: transparent;
+  }
+
+  to {
+    fill: white;
+  }
+}
+
+@keyframes hide {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+}
