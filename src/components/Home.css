@@ -47,6 +47,14 @@ h1.home-header {
   flex: initial;
 }
 
+.home-image--logo {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  opacity: 0;
+  animation: 0.5s show ease forwards 6.5s;
+}
+
 .home-big--logo {
   position: absolute;
   top: 5%;
@@ -137,6 +145,16 @@ h1.home-header {
 
   to {
     opacity: 0;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100%;
   }
 }
 
