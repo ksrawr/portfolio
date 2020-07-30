@@ -59,10 +59,10 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link>
+          <Link to='/contact'>
           <FontAwesomeIcon icon={faComments} color="rgba(255, 255, 255, 0.38)" size="2x"/>
           <div className="icon-text">
-            <p>Message</p>
+            <p>Contact</p>
           </div>
           </Link>
         </li>
