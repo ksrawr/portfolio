@@ -13,6 +13,7 @@ const About = () => {
             <h1 className="text-subheader">ABOUT</h1>
           </div>
           <div className="about-main">
+            <div>Image goes here in mobile</div>
             <h2 className="text-lg text-cyan quote">"Eggcelent"</h2>
             {/* <div className="icon-list">
               <FontAwesomeIcon color="rgba(255, 255, 255, 0.66)" icon={faLinkedin} size="2x"/>
