@@ -35,6 +35,8 @@
 .about-description {
   word-wrap: break-word;
   width: 600px;
+  letter-spacing: 0.7px;
+  line-height: 28px;
 }
 
 .icon-list svg:nth-child(2) {
@@ -42,7 +44,33 @@
 }
 
 .about-image {
+  height: 100vh;
+  display: flex;
+  align-items: center;
   flex: 1;
+}
+
+.img-container {
+  height: 600px;
+  width: 500px;
+}
+
+.img {
+  background: url('./../images/me.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  border-radius: 7px;
+  /* border-radius: 5px 60px; */
+  box-shadow: 50px 50px rgba(3, 218, 198, 0.6);
+}
+
+.img:hover {
+  opacity: 0.88;
+  box-shadow: 50px 50px rgba(3, 218, 198, 0.61);
 }
 
 .cv-button {
@@ -62,8 +90,8 @@
 .circle {
   margin-top: 30px;
   margin-left: 10px;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #03DAC6;
 }
