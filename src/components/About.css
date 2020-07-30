@@ -7,6 +7,7 @@
 .about-section {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about-content {
@@ -30,6 +31,10 @@
 
 .icon-list {
   margin: 30px 0;
+}
+
+.quote {
+  margin-bottom: 30px;
 }
 
 .about-description {
@@ -80,6 +85,7 @@
   padding: 10px 30px;
   color: #03DAC6;
   border-radius: 1px;
+  letter-spacing: 3px;
 }
 
 .cv-button:hover {
@@ -112,4 +118,30 @@
 
 .text-cyan {
   color: #03DAC6;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about-content {
+    margin-left: 4em;
+  }
+
+  .about-description {
+    width: 500px;
+  } 
+}
+
+@media only screen and (max-width: 600px) {
+  .about-content {
+    margin-left: 3em;
+  }
+
+  .about-description {
+    width: 500px;
+  }
 }
