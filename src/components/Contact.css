@@ -9,7 +9,7 @@
 }
 
 .contact-subheading {
-  height: 20vh;
+  height: 15vh;
   display: flex;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .contact-section {
-  height: 80vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
   justify-content: center;
   color: white;
   letter-spacing: 1px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .contact-content {
@@ -48,7 +48,7 @@
 }
 
 .form-list > * {
-  margin: 0 0 25px 0;
+  margin: 0 0 10px 0;
 }
 
 .form-row {
@@ -104,6 +104,7 @@
 }
 
 .custom-btn {
+  margin-left: auto;
   margin-top: 20px;
   background-color: transparent;
   border: 2px solid #03DAC6;
@@ -116,3 +117,22 @@
   background-color: #03DAC6;
   color: black;
 }
+
+.contact-footer {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.icon-item:hover {
+  cursor: pointer;
+  color: rgba(255,255,255, 0.66);
+}
+
+.contact-info-list {
+  margin-left: auto;
+  margin-right: 30px;
+  color: rgba(255,255,255, 0.66);
+}
+

@@ -1,7 +1,4 @@
 import React from 'react';
-import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGamepad } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './About.css';
 
 const About = () => {
