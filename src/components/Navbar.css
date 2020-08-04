@@ -156,6 +156,7 @@
 
   .navbar-section > *:not(:first-child):not(:last-child) {
     margin: 0;
+    padding: 15px 0;
   }
 
   .nav-item:first-child {
