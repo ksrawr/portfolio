@@ -11,6 +11,7 @@ const About = () => {
           </div>
           <div className="about-main">
             <div className="about-header">
+              <div className="about-image-mobile"></div>
               <h2 className="text-lg text-cyan">ONE LINEERRRRRRR</h2>
             </div>
             {/* <h2 className="text-lg text-cyan quote">"Eggcelent"</h2> */}

@@ -150,10 +150,14 @@
     margin-left: 3em;
   }
 
+  .about-subheader {
+    margin-bottom: 20px;
+  }
+
   .about-description {
     margin: 0;
     margin-bottom: 5px;
-    width: 500px;
+    width: 450px;
   }
 
   .cv-button {
