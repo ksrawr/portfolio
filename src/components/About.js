@@ -10,8 +10,10 @@ const About = () => {
             <h1 className="text-subheader">ABOUT</h1>
           </div>
           <div className="about-main">
-            <div>Image goes here in mobile</div>
-            <h2 className="text-lg text-cyan quote">"Eggcelent"</h2>
+            <div className="about-header">
+              <h2 className="text-lg text-cyan">ONE LINEERRRRRRR</h2>
+            </div>
+            {/* <h2 className="text-lg text-cyan quote">"Eggcelent"</h2> */}
             {/* <div className="icon-list">
               <FontAwesomeIcon color="rgba(255, 255, 255, 0.66)" icon={faLinkedin} size="2x"/>
               <FontAwesomeIcon color="rgba(255, 255, 255, 0.66)" icon={faGithubSquare} size="2x"/>
@@ -28,7 +30,6 @@ const About = () => {
             <br/>
             Interested in front end and back end work, and am willing to relocate to any destination in the US. 
             </p>
-            <h2 className="text-lg text-cyan">ONE LINEERRRRRRR</h2>
             <button className="cv-button">CONTACT ME</button>
             <div className="circle"></div>
           </div>
