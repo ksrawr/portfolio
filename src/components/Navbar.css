@@ -33,9 +33,9 @@
 }
 
 .icon-text p {
-  /* color: rgba(255, 255, 255, 0.38); */
-  color: #03DAC6;
-  margin: 0;
+  color: rgba(255, 255, 255, 0.80);
+  /* color: #03DAC6; */
+  margin-top: 5px;
 }
 
 /* All children after the first apply this rule */
@@ -74,7 +74,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 5em;
+  height: 3.5em;
   width: 100%;
   margin: 15px 10px 0 0;
   margin-bottom: auto;
@@ -82,7 +82,7 @@
 
 .navbar-section > *:not(:first-child):not(:last-child) {
   /* margin: 20px 0px; */
-  padding: 15px 0;
+  padding: 15px 0 0px 0px;
 }
 
 .nav-item:first-child {
@@ -111,6 +111,12 @@
 @media only screen and (max-width: 1200px) {
   .logo-main {
     height: 3em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo-main {
+    height: 2.5em;
   }
 }
 

@@ -9,7 +9,9 @@ const Home = props => {
           <h1 className="home-header">
             Hi!
             <br/>
-            My name is Kenneth
+            My name
+            <br/>
+            is Kenneth
           </h1>
           <h2 className="home-tag">
             Software Developer / Front End Developer / Back End Developer

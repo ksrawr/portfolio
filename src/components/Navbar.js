@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link to='/'>
-          <FontAwesomeIcon icon={faHome} color="rgba(255, 255, 255, 0.38)" size="2x"/>
+          <FontAwesomeIcon icon={faHome} color="rgba(255, 255, 255, 0.38)" size="lg"/>
           <div className="icon-text">
             <p>Home</p>
           </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link to='/about'>
-          <FontAwesomeIcon icon={faUser} color="rgba(255, 255, 255, 0.38)" size="2x"/>
+          <FontAwesomeIcon icon={faUser} color="rgba(255, 255, 255, 0.38)" size="lg"/>
           <div className="icon-text">
             <p>About</p>
           </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link>
-          <FontAwesomeIcon icon={faCubes} color="rgba(255, 255, 255, 0.38)" size="2x"/>
+          <FontAwesomeIcon icon={faCubes} color="rgba(255, 255, 255, 0.38)" size="lg"/>
           <div className="icon-text">
             <p>Skills</p>
           </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link>
-          <FontAwesomeIcon icon={faFolder} color="rgba(255, 255, 255, 0.38)" size="2x"/>
+          <FontAwesomeIcon icon={faFolder} color="rgba(255, 255, 255, 0.38)" size="lg"/>
           <div className="icon-text">
             <p>Projects</p>
           </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link to='/contact'>
-          <FontAwesomeIcon icon={faComments} color="rgba(255, 255, 255, 0.38)" size="2x"/>
+          <FontAwesomeIcon icon={faComments} color="rgba(255, 255, 255, 0.38)" size="lg"/>
           <div className="icon-text">
             <p>Contact</p>
           </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <div>
-          <FontAwesomeIcon icon={faCog} color="rgba(255, 255, 255, 0.38)" size="2x"/>
+          <FontAwesomeIcon icon={faCog} color="rgba(255, 255, 255, 0.38)" size="lg"/>
           <div className="icon-text">
             <p>Settings</p>
           </div>
