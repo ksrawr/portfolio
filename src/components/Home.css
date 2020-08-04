@@ -17,11 +17,11 @@
 
 .home-main_content {
   flex:1;
-  margin-left: 7em;
+  margin-left: 6em;
 }
 
 h1.home-header {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .home-learn--button {
@@ -160,6 +160,20 @@ h1.home-header {
 
 
 @media only screen and (max-width: 1400px) {
+  /* .home-aside {
+    display: none;
+  } */
+
+  .home-big--logo, .home-image--logo {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+    width: 566px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   .home-aside {
     display: none;
   }
