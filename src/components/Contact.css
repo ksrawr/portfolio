@@ -136,3 +136,16 @@
   color: rgba(255,255,255, 0.66);
 }
 
+@media only screen and (max-width: 600px) {
+  input.contact-input {
+    width: 200px;
+  }
+
+  .form-row .form-item {
+    margin: 0 15px;
+  }
+
+  textarea {
+    width: 400px;
+  }
+}
