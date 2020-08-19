@@ -1,0 +1,40 @@
+.skill-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(18,18,18,0.95);
+}
+
+.skill-container > * {
+  margin-left: 7em;
+}
+
+.skill-subheading {
+  height: 15vh;
+  display: flex;
+}
+
+.subheader {
+  margin-top: auto;
+}
+
+.skill-section {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3em;
+}
+
+.skill-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skill-item {
+  width: 300px;
+  height: 500px;
+  border: 1px solid red;
+  margin: 0 10px;
+}
