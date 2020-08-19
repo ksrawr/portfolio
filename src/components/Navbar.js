@@ -43,7 +43,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link>
+          <Link to='/skills'>
           <FontAwesomeIcon icon={faCubes} color="rgba(255, 255, 255, 0.38)" size="lg"/>
           <div className="icon-text">
             <p>Skills</p>
