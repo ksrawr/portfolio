@@ -14,7 +14,12 @@ const Skills = () => {
         <div className="skill-main">
           <div className="skill-item">
             <div className="skill-item-header">
-              <h2>JavaScript</h2>
+              <h2>Front-end</h2>
+            </div>
+            <div className="skill-item-body">
+              <ul>
+                <li>Languages</li>
+              </ul>
             </div>
           </div>
           <div className="skill-item">
